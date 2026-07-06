@@ -1,27 +1,22 @@
 {
-  "name": "campusverse-website",
+  "name": "campusverse-student-trust-network",
   "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@next/font": "latest",
-    "lucide-react": "latest",
-    "next": "latest",
-    "react": "latest",
-    "react-dom": "latest"
+    "next": "16.2.10",
+    "react": "19.2.3",
+    "react-dom": "19.2.3"
   },
   "devDependencies": {
     "@types/node": "latest",
     "@types/react": "latest",
     "@types/react-dom": "latest",
-    "autoprefixer": "latest",
-    "postcss": "latest",
-    "tailwindcss": "latest",
     "typescript": "latest"
   }
 }
